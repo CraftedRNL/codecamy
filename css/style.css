@@ -42,14 +42,14 @@ p{
 
     height: 769px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
 opacity: 0.5;
 background-image: url(/img/tea5.jpg);
 background-repeat: no-repeat;
 background-size: cover;
 width: 1800px;
-justify-self: center;
+
 }
 .text{
     background-color: black;
@@ -71,4 +71,33 @@ img{
 .row2{
     display: flex;
     justify-content: space-evenly;
+}
+.row3{
+    display: flex;
+    justify-content: space-evenly;
+}
+.places{
+    background-image: url(/img/tea4.jpg);
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 70%;
+    justify-self: center;
+    align-content: center;  
+    
+}
+.loc{
+    background-color: black;
+    width: 300px;
+    justify-self: space-evenly;
+    margin-top: 50px;
+    text-decoration: none;
+}
+.left{
+    display: flex;
+    justify-content: flex-start;
+}
+.footer{
+    height: 200px;
+    align-content: center;
 }
