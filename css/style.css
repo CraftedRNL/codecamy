@@ -1,0 +1,74 @@
+body{
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    text-align: center;
+    margin: 0px;
+    
+}
+.navbar{
+    height: 69px;
+    border-bottom: 1px solid seashell;
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+    color: seashell;
+   
+    z-index: 1;
+    background-color: black;
+}
+.logo{
+    height: 50px !important;
+    margin-left: 10px;
+    
+}
+ .location{
+display: inline-flex;
+    justify-content: flex-end;
+    width: 100%;
+}
+p{
+   margin-left: 10px; 
+   margin-right: 10px; 
+   text-decoration: underline;
+   cursor: pointer;
+   
+}
+.hero{
+
+    height: 769px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+opacity: 0.5;
+background-image: url(/img/tea5.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+width: 1800px;
+justify-self: center;
+}
+.text{
+    background-color: black;
+    width: 1800px;
+}
+.images{
+    width: 1000px;
+    justify-self: center;
+    margin-top: 50px;
+}
+img{
+    width: 300px;
+    height: 200px;
+}
+.row1{
+    display: flex;
+    justify-content: space-around;
+}
+.row2{
+    display: flex;
+    justify-content: space-evenly;
+}
